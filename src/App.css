@@ -1,0 +1,22 @@
+.text-align-center {
+  text-align: center;
+}
+
+.background {
+  background-color: gray;
+  height: 105vh
+}
+
+input {
+  width: 80%;
+  border-radius:5px;
+  height: 30px;
+  border: none;
+  background-color: rgb(62, 62, 62);
+  color: white;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}

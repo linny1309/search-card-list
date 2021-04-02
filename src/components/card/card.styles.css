@@ -1,0 +1,49 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #5d5d5d;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    height: 300px;
+}
+
+.card-container:hover {
+      background-color: rgb(37, 37, 37);
+}
+
+p {
+      background-color: rgb(52, 52, 52);
+      border-radius:5px;
+      padding: 5px;
+      width: 110%;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.kpi-score {
+      background-color: rgb(165, 165, 165);
+      border-radius: 5px;
+      padding: 5px;
+}
+
+.kpi-net {
+      margin-top: 3px;
+      background-color: rgb(165, 165, 165);
+      border-radius: 5px;
+      padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+      font-size: 12px;
+    }
+}
